@@ -1,0 +1,14 @@
+name: "Pearl's Website"
+description: "Pearl's zone!"
+
+markdown: kramdown
+
+permalink: /journal/:year/:month/:day/:title
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
