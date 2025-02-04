@@ -1,0 +1,28 @@
+header, footer, .stamps
+{
+	background-color: aqua;
+	text-align: center;
+}
+
+.container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	
+	background-color: red;
+}
+
+.content
+{
+	flex-grow: 1;
+	
+	background-color: blue;
+}
+
+.links
+{
+	flex-basis: 25%;
+	
+	background-color: green;
+}
