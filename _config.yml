@@ -9,6 +9,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   
+collections:
+  badges:
+    output: false
+  
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed

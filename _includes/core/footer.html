@@ -1,3 +1,5 @@
 <footer>
-	PEARL FEET
+	{% for badge in site.badges %}
+		<a href="{{ badge.link }}"><img src="{{ badge.image }}"></a>
+	{% endfor %}
 </footer>
